@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	Coupler
+%define		pdir	Tie
+%define		pnam	Coupler
 Summary:	Tie::Coupler - Tie based implementation of coupled scalars
 Summary(pl):	Tie::Coupler - implementacja par skalarów bazuj±ca na Tie
 Name:		perl-Tie-Coupler
