@@ -5,10 +5,10 @@
 %define	pdir	Tie
 %define	pnam	Coupler
 Summary:	Tie::Coupler - Tie based implementation of coupled scalars
-#Summary(pl):	
+Summary(pl):	Tie::Coupler - implementacja par skalarów bazuj±ca na Tie
 Name:		perl-Tie-Coupler
 Version:	0.01
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,12 +19,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Tie::Coupler provides a mechanism by which you can couple two scalars.
-That is the value of the coupled scalar would determined by the value of
-the scalar to which it is coupled.  The code referenced by the options
-fconvert and rconvert determine the relation between the two scalars.
+That is the value of the coupled scalar would determined by the value
+of the scalar to which it is coupled. The code referenced by the
+options fconvert and rconvert determine the relation between the two
+scalars.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Tie::Coupler udostêpnia mechanizm, którym mo¿na powi±zaæ dwa
+skalary. Oznacza to, ¿e warto¶æ powi±zanego skalaru bêdzie okre¶lona
+przez warto¶æ skalaru, z którym zosta³ powi±zany. Kod wskazany przez
+opcje fconvert i rconvert okre¶la relacjê miêdzy obydwoma skalarami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
