@@ -10,7 +10,8 @@ Summary(pl):	Tie::Coupler - implementacja par skalarów bazuj±ca na Tie
 Name:		perl-Tie-Coupler
 Version:	0.01
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	34537d1e9fc070003ea3be50b40fb813
