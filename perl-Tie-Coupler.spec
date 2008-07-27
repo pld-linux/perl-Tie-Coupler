@@ -9,7 +9,7 @@ Summary:	Tie::Coupler - Tie based implementation of coupled scalars
 Summary(pl.UTF-8):	Tie::Coupler - implementacja par skalarów bazująca na Tie
 Name:		perl-Tie-Coupler
 Version:	0.01
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
