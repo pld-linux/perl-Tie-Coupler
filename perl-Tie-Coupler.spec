@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tie
 %define		pnam	Coupler
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::Coupler - Tie based implementation of coupled scalars
 Summary(pl.UTF-8):	Tie::Coupler - implementacja par skalarów bazująca na Tie
 Name:		perl-Tie-Coupler
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	34537d1e9fc070003ea3be50b40fb813
+URL:		http://search.cpan.org/dist/Tie-Coupler/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
