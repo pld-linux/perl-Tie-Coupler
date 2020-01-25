@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	Coupler
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::Coupler - Tie based implementation of coupled scalars
 Summary(pl.UTF-8):	Tie::Coupler - implementacja par skalarów bazująca na Tie
 Name:		perl-Tie-Coupler
